@@ -1,9 +1,3 @@
-% OCR (Optical Character Recognition).
-% Author: Ing. Diego Barragán Guerrero 
-% e-mail: diego@matpic.com
-% For more information, visit: www.matpic.com
-%________________________________________
-% PRINCIPAL PROGRAM
 warning off %#ok<WNOFF>
 % Clear all
 clc, close all, clear all
@@ -66,5 +60,4 @@ end
 fclose(fid);
 %Open 'text.txt' file
 winopen('text.txt')
-fprintf('For more information, visit: <a href= "http://www.matpic.com">www.matpic.com </a> \n')
 clear all
